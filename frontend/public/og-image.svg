@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16a34a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#15803d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="overlay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:white;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="150" cy="100" r="200" fill="white" opacity="0.05"/>
+  <circle cx="1050" cy="530" r="250" fill="white" opacity="0.05"/>
+  <circle cx="900" cy="80" r="120" fill="white" opacity="0.03"/>
+  
+  <!-- Tractor Icon (centered-left) -->
+  <g transform="translate(280, 160) scale(3.5)">
+    <!-- Tractor Body -->
+    <rect x="18" y="22" width="24" height="14" rx="3" fill="white" opacity="0.95"/>
+    <!-- Tractor Cabin -->
+    <rect x="30" y="14" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+    <rect x="33" y="16" width="7" height="6" rx="1" fill="#bbf7d0"/>
+    <!-- Exhaust -->
+    <rect x="20" y="17" width="3" height="7" rx="1.5" fill="white" opacity="0.85"/>
+    <!-- Back Wheel -->
+    <circle cx="24" cy="40" r="9" fill="#166534" stroke="white" stroke-width="2"/>
+    <circle cx="24" cy="40" r="4" fill="white" opacity="0.3"/>
+    <circle cx="24" cy="40" r="2" fill="white" opacity="0.5"/>
+    <!-- Front Wheel -->
+    <circle cx="40" cy="40" r="6" fill="#166534" stroke="white" stroke-width="2"/>
+    <circle cx="40" cy="40" r="2.5" fill="white" opacity="0.3"/>
+    <circle cx="40" cy="40" r="1.2" fill="white" opacity="0.5"/>
+    <!-- Seedling -->
+    <path d="M48 12 C48 12, 52 8, 52 12 C52 16, 48 14, 48 14" fill="#bbf7d0"/>
+    <path d="M48 12 C48 12, 44 8, 44 12 C44 16, 48 14, 48 14" fill="#86efac"/>
+    <line x1="48" y1="14" x2="48" y2="19" stroke="#bbf7d0" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Brand Name -->
+  <text x="600" y="260" font-family="Inter, Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-2">
+    Farmer<tspan fill="#bbf7d0">Market</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="600" y="320" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" fill="#bbf7d0" text-anchor="middle" font-weight="500" letter-spacing="3">
+    FARM TO TABLE • FRESH &amp; DIRECT
+  </text>
+  
+  <!-- Bottom separator line -->
+  <line x1="450" y1="370" x2="750" y2="370" stroke="#bbf7d0" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Description -->
+  <text x="600" y="420" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" fill="white" text-anchor="middle" opacity="0.85" font-weight="400">
+    Connecting Farmers &amp; Buyers Directly
+  </text>
+  
+  <!-- Features row -->
+  <text x="350" y="490" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="white" text-anchor="middle" opacity="0.7">
+    🌾 Fresh Produce
+  </text>
+  <text x="600" y="490" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="white" text-anchor="middle" opacity="0.7">
+    💬 Direct Chat
+  </text>
+  <text x="850" y="490" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="white" text-anchor="middle" opacity="0.7">
+    🚚 Fast Delivery
+  </text>
+  
+  <!-- Bottom bar -->
+  <rect x="0" y="570" width="1200" height="60" fill="#166534" opacity="0.5"/>
+  <text x="600" y="608" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" fill="white" text-anchor="middle" opacity="0.7">
+    🌿 Empowering Agriculture with Technology
+  </text>
+</svg>

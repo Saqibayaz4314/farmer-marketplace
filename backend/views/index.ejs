@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gemini AI Test</title>
+</head>
+<body>
+    <h1>Gemini AI Test</h1>
+
+    <form id="aiForm" action="/test-gemini" method="POST">
+        <label for="prompt">Enter your prompt:</label><br>
+        <textarea name="prompt" id="prompt" cols="50" rows="5"></textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <% if (response) { %>
+        <h2>AI Response:</h2>
+        <pre><%= response %></pre>
+    <% } %>
+</body>
+</html>

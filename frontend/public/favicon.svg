@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#grad)" stroke="#15803d" stroke-width="2"/>
+  
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#15803d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Tractor Body -->
+  <rect x="18" y="22" width="24" height="14" rx="3" fill="white" opacity="0.95"/>
+  
+  <!-- Tractor Cabin -->
+  <rect x="30" y="14" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+  <rect x="33" y="16" width="7" height="6" rx="1" fill="#bbf7d0"/>
+  
+  <!-- Exhaust Pipe -->
+  <rect x="20" y="17" width="3" height="7" rx="1.5" fill="white" opacity="0.85"/>
+  
+  <!-- Large Back Wheel -->
+  <circle cx="24" cy="40" r="9" fill="#166534" stroke="white" stroke-width="2"/>
+  <circle cx="24" cy="40" r="4" fill="white" opacity="0.3"/>
+  <circle cx="24" cy="40" r="2" fill="white" opacity="0.5"/>
+  
+  <!-- Small Front Wheel -->
+  <circle cx="40" cy="40" r="6" fill="#166534" stroke="white" stroke-width="2"/>
+  <circle cx="40" cy="40" r="2.5" fill="white" opacity="0.3"/>
+  <circle cx="40" cy="40" r="1.2" fill="white" opacity="0.5"/>
+  
+  <!-- Seedling -->
+  <path d="M48 12 C48 12, 52 8, 52 12 C52 16, 48 14, 48 14" fill="#bbf7d0"/>
+  <path d="M48 12 C48 12, 44 8, 44 12 C44 16, 48 14, 48 14" fill="#86efac"/>
+  <line x1="48" y1="14" x2="48" y2="19" stroke="#bbf7d0" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
